@@ -51,8 +51,8 @@ REDIS_MANAGE_PASSWORD=123456
 REDIS_MANAGE_CONNECT_HOST=redis
 # Redis 服务端口号
 REDIS_MANAGE_CONNECT_PORT=6379
-# Redis 可视化管理映射宿主机端口号，可在宿主机127.0.0.1:2000访问
-REDIS_MANAGE_PORT=2000
+# Redis 可视化管理映射宿主机端口号，可在宿主机127.0.0.1:1001访问
+REDIS_MANAGE_PORT=1001
 
 
 # ETCD ###########################################
@@ -61,18 +61,18 @@ ETCD_PORT=2379
 
 
 # PROMETHEUS #####################################
-# Prometheus 服务映射宿主机端口号，可在宿主机127.0.0.1:3000访问
-PROMETHEUS_PORT=3000
+# Prometheus 服务映射宿主机端口号，可在宿主机127.0.0.1:1002访问
+PROMETHEUS_PORT=1002
 
 
 # GRAFANA ########################################
-# Grafana 服务映射宿主机端口号，可在宿主机127.0.0.1:4000访问
-GRAFANA_PORT=4000
+# Grafana 服务映射宿主机端口号，可在宿主机127.0.0.1:1003访问
+GRAFANA_PORT=1003
 
 
 # JAEGER #########################################
-# Jaeger 服务映射宿主机端口号，可在宿主机127.0.0.1:5000访问
-JAEGER_PORT=5000
+# Jaeger 服务映射宿主机端口号，可在宿主机127.0.0.1:1004访问
+JAEGER_PORT=1004
 
 
 # DTM #########################################
